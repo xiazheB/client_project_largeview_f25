@@ -72,7 +72,7 @@ header img {
 h1 {
   font-size: 24px;
   line-height: 1.25;
-  color: #FFCB05;
+  color: #926F16;
   text-align: center;
 }
 
@@ -376,6 +376,15 @@ button.btn {
 button.btn:hover {
   background: #00274C;
   color: #FFCB05;
+}
+
+@media (min-width: 600px) {
+  .card-grid,
+  .resource-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
 }
 
 @media (min-width: 900px) {
